@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T12:57:50.769Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oiYiwgGPEa-Y8M7UC5gs" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T13:02:30.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jB_7q_Tx2eOf9KcH6EgS" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -349,6 +349,9 @@
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-104" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Department&lt;/li&gt;&lt;li&gt;Budget&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4395" y="180" width="210" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yT2jcX1gNWG2OGTkNdqD-105" target="yT2jcX1gNWG2OGTkNdqD-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-105" value="System opens up form with pre-defined system T&amp;amp;E policies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4250" y="480" width="120" height="60" as="geometry" />
         </mxCell>
@@ -395,6 +398,21 @@
         </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-117" value="User can skip or make entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4640" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yT2jcX1gNWG2OGTkNdqD-121" target="yT2jcX1gNWG2OGTkNdqD-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-121" value="System prompts user to edit the policies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4250" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-128" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yT2jcX1gNWG2OGTkNdqD-125" target="yT2jcX1gNWG2OGTkNdqD-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-125" value="User selection?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4240" y="715" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-127" value="System opens policies in grid view with the employee names as the column header and the policy as a row" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4475" y="745" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
