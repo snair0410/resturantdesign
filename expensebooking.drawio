@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T16:06:42.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="D3RGu2FYGmQWJaqpr4Qc" version="21.3.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-29T16:10:36.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Q8A9pJcjhKh4Rc6Ombzl" version="21.3.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -290,6 +290,9 @@
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yT2jcX1gNWG2OGTkNdqD-84" target="yT2jcX1gNWG2OGTkNdqD-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vbKjRG9ronMQ8Bx7NM4u-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yT2jcX1gNWG2OGTkNdqD-84" target="vbKjRG9ronMQ8Bx7NM4u-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-84" value="Sys admin taken to dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3040" y="310" width="120" height="60" as="geometry" />
         </mxCell>
@@ -535,6 +538,15 @@
         </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-162" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4260" y="1890" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbKjRG9ronMQ8Bx7NM4u-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vbKjRG9ronMQ8Bx7NM4u-0" target="vbKjRG9ronMQ8Bx7NM4u-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbKjRG9ronMQ8Bx7NM4u-0" value="Sys admin decides to make payment for full system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3040" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbKjRG9ronMQ8Bx7NM4u-2" value="Go to&amp;nbsp;Configuration Flow for full system on Web" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3250" y="145" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
