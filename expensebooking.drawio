@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T23:07:48.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kBcMDisRe7QxWvOv0Ze5" version="21.3.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-29T23:19:21.450Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lLjz1H7EwJDRX69H8mVD" version="21.3.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1126,8 +1126,89 @@
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-9" value="User is ok to pay?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3240" y="600" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-13" value="Sys admin presented with billing options" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-13" target="ZoU8wx0lo-7dZvrNCsIF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-13" value="Take user to payment page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3250" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-16" target="ZoU8wx0lo-7dZvrNCsIF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-16" value="User completes billing process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-18" target="ZoU8wx0lo-7dZvrNCsIF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-18" value="Prompt user to download excel file with HR format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-20" target="ZoU8wx0lo-7dZvrNCsIF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-20" value="User downloads file" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-22" target="ZoU8wx0lo-7dZvrNCsIF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-22" value="User enters full HR master into excel file" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3250" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-24" target="ZoU8wx0lo-7dZvrNCsIF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-24" value="User uploads file" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3440" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-26" target="ZoU8wx0lo-7dZvrNCsIF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZoU8wx0lo-7dZvrNCsIF-29">
+          <mxGeometry x="-0.1636" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-35" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-26" target="ZoU8wx0lo-7dZvrNCsIF-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3810" y="1310" />
+              <mxPoint x="3810" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-26" value="Has file passed all validations?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3640" y="1235" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-28" target="ZoU8wx0lo-7dZvrNCsIF-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-28" value="Prompt issues with the file upload for user to correct." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3650" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-31" target="ZoU8wx0lo-7dZvrNCsIF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-31" value="User corrects issues" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3440" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-37" value="Save" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-34" target="ZoU8wx0lo-7dZvrNCsIF-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3900" y="1370" />
+              <mxPoint x="3900" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-34" value="HR master has passed all validations." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3840" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-36" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3870" y="1400" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="3825" y="1170" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
