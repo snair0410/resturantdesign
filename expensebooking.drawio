@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T12:31:14.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="fgtZIwU-YteHE3dQRI7J" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T12:33:22.833Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="74EXUC7tB2K533aH0wNa" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -202,6 +202,9 @@
         </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-58" value="User enters company details&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2240" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-60" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Company Name&lt;/li&gt;&lt;li&gt;Company HQ Country&lt;/li&gt;&lt;li&gt;Company Size&lt;/li&gt;&lt;li&gt;Default Currency&lt;/li&gt;&lt;li&gt;Mobile Number&lt;/li&gt;&lt;li&gt;Company URL&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2195" y="160" width="210" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
