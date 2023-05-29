@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T22:53:37.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CuES459WOeRrSqtDasAK" version="21.3.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-29T22:54:01.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="eWQ1WMU8zLHxkbht6X_N" version="21.3.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -841,23 +841,19 @@
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-85" value="Sys admin taken to dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3040" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ylIP6Tap9EPNx5bp8vQ-87" target="7ylIP6Tap9EPNx5bp8vQ-89">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ylIP6Tap9EPNx5bp8vQ-87" target="7ylIP6Tap9EPNx5bp8vQ-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3440" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-87" value="User prompted to complete configurations." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="3240" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ylIP6Tap9EPNx5bp8vQ-89" target="7ylIP6Tap9EPNx5bp8vQ-91">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-89" value="User prompted to complete configurations." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3440" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ylIP6Tap9EPNx5bp8vQ-91" target="7ylIP6Tap9EPNx5bp8vQ-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-91" value="User clicks on complete configurations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="3640" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="3540" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ylIP6Tap9EPNx5bp8vQ-93" target="7ylIP6Tap9EPNx5bp8vQ-96">
           <mxGeometry relative="1" as="geometry" />
