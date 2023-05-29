@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T13:07:40.156Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="u7LnbVfzeUnwrV5ZLztw" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T13:07:58.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UGtbsSoP6linvoQpRFOj" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -493,6 +493,9 @@
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-149" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4100" y="1160" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yT2jcX1gNWG2OGTkNdqD-150" target="yT2jcX1gNWG2OGTkNdqD-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-150" value="System shows tax calculation table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4250" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
@@ -511,6 +514,9 @@
         </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-155" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4100" y="1390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-156" value="User can skip or make entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4250" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
