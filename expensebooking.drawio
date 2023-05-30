@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T13:33:30.167Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RbbkEdpwnXE__cJvunT4" version="21.3.5" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-05-30T23:51:28.516Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="nIJOmGI0LpJoe5j5mnui" version="21.3.5" type="github" pages="18">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3244,6 +3244,56 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yrLY6CY_VFQ_i5yQClmr-1" value="&lt;h1&gt;Ticketing - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fgtse7bBFfnSZApiAyeS-1" target="tybD_QdU9IvNeU8ESAUi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fgtse7bBFfnSZApiAyeS-1" value="Sys Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tybD_QdU9IvNeU8ESAUi-1" target="tybD_QdU9IvNeU8ESAUi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-1" value="Sys admin is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tybD_QdU9IvNeU8ESAUi-3" target="tybD_QdU9IvNeU8ESAUi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-3" value="Sys Admin raises ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tybD_QdU9IvNeU8ESAUi-5" target="tybD_QdU9IvNeU8ESAUi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-5" value="Ticket is raised to Expense book tech team" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tybD_QdU9IvNeU8ESAUi-7" target="tybD_QdU9IvNeU8ESAUi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-7" value="Sysadmin fills relevant details in the form" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tybD_QdU9IvNeU8ESAUi-9" target="tybD_QdU9IvNeU8ESAUi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-13" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tybD_QdU9IvNeU8ESAUi-12">
+          <mxGeometry x="-0.2571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-9" value="Employee hits submit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-11" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tybD_QdU9IvNeU8ESAUi-14" value="&lt;ol&gt;&lt;li&gt;Ticket number auto generated&lt;/li&gt;&lt;li&gt;Ticket Opened Date.&lt;/li&gt;&lt;li&gt;Ticket raised by&lt;/li&gt;&lt;li&gt;Issu Description&lt;/li&gt;&lt;li&gt;Ticket Status&lt;/li&gt;&lt;li&gt;Ticket Raised To&lt;/li&gt;&lt;li&gt;Uploaded Documents&lt;/li&gt;&lt;/ol&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="600" width="270" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
