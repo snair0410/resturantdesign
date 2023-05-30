@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T02:26:36.375Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="I1VI2KMtPpkLLQIdkOYL" version="21.3.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-05-30T05:54:20.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RvZscGkXCofnjc_9ue0L" version="21.3.5" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2000,6 +2000,339 @@
         </mxCell>
         <mxCell id="LyWIs5D-7r5v262PD9uj-11" value="Go to Work on travel request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2010" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vUyDdh3Au_ij3Lpnqq0o" name="Approve Advance Cash Request - Both -Both">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="34WZ7Xo6Dy6WcV-78aAt-1" value="&lt;h1&gt;Approve Advance Cash Request&amp;nbsp; - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XiJFX75LgKfpXF4mSbBG-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiJFX75LgKfpXF4mSbBG-2" target="XiJFX75LgKfpXF4mSbBG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiJFX75LgKfpXF4mSbBG-2" value="Leader" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiJFX75LgKfpXF4mSbBG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiJFX75LgKfpXF4mSbBG-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiJFX75LgKfpXF4mSbBG-4" value="Leader is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7NlwH-MRybmd9Oh_css-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiJFX75LgKfpXF4mSbBG-5" target="L7NlwH-MRybmd9Oh_css-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiJFX75LgKfpXF4mSbBG-5" value="Leader sees full list of travel requests with cash advance requested above pre-defined limit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7NlwH-MRybmd9Oh_css-1" target="9G_8jrPrthhByG4naUhs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7NlwH-MRybmd9Oh_css-1" value="Leader can approve/reject request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9G_8jrPrthhByG4naUhs-1" target="9G_8jrPrthhByG4naUhs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-6" value="Approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9G_8jrPrthhByG4naUhs-5">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9G_8jrPrthhByG4naUhs-1" target="ZrBhKH-zOIG0o-2T4TU4-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="720" />
+              <mxPoint x="1120" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-5" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-4">
+          <mxGeometry x="0.1897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-1" value="Decision by Leader?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9G_8jrPrthhByG4naUhs-4" target="9G_8jrPrthhByG4naUhs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-4" value="Leader clicks Approve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTY2tenDQizaslKL7BHR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9G_8jrPrthhByG4naUhs-7" target="FTY2tenDQizaslKL7BHR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxjh6-OZjkeRjKYzefYy-2" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FTY2tenDQizaslKL7BHR-2">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9G_8jrPrthhByG4naUhs-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1774" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="590" />
+              <mxPoint x="1774" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-2" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-1">
+          <mxGeometry x="0.1742" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9G_8jrPrthhByG4naUhs-7" value="Leader wants to add comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FTY2tenDQizaslKL7BHR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FTY2tenDQizaslKL7BHR-1" target="FTY2tenDQizaslKL7BHR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTY2tenDQizaslKL7BHR-5" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FTY2tenDQizaslKL7BHR-4">
+          <mxGeometry x="0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASdJMBNYURl3uPD-fbfq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FTY2tenDQizaslKL7BHR-1" target="ZrBhKH-zOIG0o-2T4TU4-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTY2tenDQizaslKL7BHR-1" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTY2tenDQizaslKL7BHR-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxjh6-OZjkeRjKYzefYy-1" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="270" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-3" value="Leader clicks Reject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1126" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-6" value="Go to Settle Impress Cash Advance both web only" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="490" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-7" value="Finance Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="470" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ZrBhKH-zOIG0o-2T4TU4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-12" value="FM is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-14" target="ZrBhKH-zOIG0o-2T4TU4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-14" value="FM sees full list of travel requests with cash advance requested above pre-defined limit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="440" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-16" target="ZrBhKH-zOIG0o-2T4TU4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-16" value="FM can approve/reject request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-19" target="ZrBhKH-zOIG0o-2T4TU4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-18" value="Approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-17">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-19" value="Decision by FM?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-21" target="ZrBhKH-zOIG0o-2T4TU4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-21" value="FM clicks Approve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-22" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3038" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-25" target="ZrBhKH-zOIG0o-2T4TU4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3324" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2940" y="590" />
+              <mxPoint x="3380" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-24" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-23">
+          <mxGeometry x="0.1742" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-25" target="ZrBhKH-zOIG0o-2T4TU4-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-25" value="FM wants to add comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-29" target="ZrBhKH-zOIG0o-2T4TU4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-27" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-26">
+          <mxGeometry x="0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3323" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-29" value="FM is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3070" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3100" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-32" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="3055" y="280" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ZrBhKH-zOIG0o-2T4TU4-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-34" target="ZrBhKH-zOIG0o-2T4TU4-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1396" y="839" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-44" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-43">
+          <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-34" value="Leader wants to add comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1326" y="630" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ZrBhKH-zOIG0o-2T4TU4-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1466" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-35">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-39" target="ZrBhKH-zOIG0o-2T4TU4-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-38" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-37">
+          <mxGeometry x="0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-39" target="ZrBhKH-zOIG0o-2T4TU4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-39" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1526" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-41" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="680" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-42" value="Cash Advance is sent back to the employee with rejected status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1526" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZrBhKH-zOIG0o-2T4TU4-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2500" y="585" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2500" y="720" />
+              <mxPoint x="2670" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-47" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-46">
+          <mxGeometry x="0.1897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-48" value="FM clicks Reject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2676" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ZrBhKH-zOIG0o-2T4TU4-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2796" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-52" target="ZrBhKH-zOIG0o-2T4TU4-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2946" y="839" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-51" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-50">
+          <mxGeometry x="0.1111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-52" value="FM wants to add comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2876" y="630" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ZrBhKH-zOIG0o-2T4TU4-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3016" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-54" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-53">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-58" target="ZrBhKH-zOIG0o-2T4TU4-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-56" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZrBhKH-zOIG0o-2T4TU4-55">
+          <mxGeometry x="0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-58" target="ZrBhKH-zOIG0o-2T4TU4-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-58" value="FM is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3076" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-59" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-60" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="680" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-61" value="Cash Advance is sent back to the employee with rejected status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3076" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
