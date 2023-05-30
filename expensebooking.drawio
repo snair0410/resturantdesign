@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T00:38:13.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vVMtk3e0cehJjZR1dWph" version="21.3.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-05-30T00:54:15.204Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="frGqvd_0NfQ-re2VkwDz" version="21.3.5" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1697,6 +1697,171 @@
         <mxCell id="1" parent="0" />
         <mxCell id="9nOUukYcqZAJ-JUorj1j-1" value="&lt;h1&gt;Approve Travel Request - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-Rny5wjPq-C2sDQc2m-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="imlHtzASrdlo5W_BSfY7-1" target="lv-Rny5wjPq-C2sDQc2m-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imlHtzASrdlo5W_BSfY7-1" value="Leader" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-Rny5wjPq-C2sDQc2m-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lv-Rny5wjPq-C2sDQc2m-1" target="lv-Rny5wjPq-C2sDQc2m-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-Rny5wjPq-C2sDQc2m-1" value="Leader is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-Rny5wjPq-C2sDQc2m-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lv-Rny5wjPq-C2sDQc2m-3" target="lv-Rny5wjPq-C2sDQc2m-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-Rny5wjPq-C2sDQc2m-3" value="Leader sees a list of travel request for approval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lv-Rny5wjPq-C2sDQc2m-5" target="Vv3ZrWQ7MRbrTV-XYHmG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-Rny5wjPq-C2sDQc2m-5" value="Leader can Approve or Reject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-1" target="Vv3ZrWQ7MRbrTV-XYHmG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-5" value="Approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vv3ZrWQ7MRbrTV-XYHmG-4">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-1" target="bHKlRnCdBLCp6xTSOUjP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-5" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHKlRnCdBLCp6xTSOUjP-4">
+          <mxGeometry x="-0.3091" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-1" value="Decision by Leader?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-3" target="Vv3ZrWQ7MRbrTV-XYHmG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-3" value="Leader approves the travel request." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-6" target="Vv3ZrWQ7MRbrTV-XYHmG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vv3ZrWQ7MRbrTV-XYHmG-9">
+          <mxGeometry x="-0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-6" target="Vv3ZrWQ7MRbrTV-XYHmG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vv3ZrWQ7MRbrTV-XYHmG-16">
+          <mxGeometry x="-0.1733" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-6" value="Leader wants to add extra comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-8" target="Vv3ZrWQ7MRbrTV-XYHmG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-12" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vv3ZrWQ7MRbrTV-XYHmG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-8" target="Vv3ZrWQ7MRbrTV-XYHmG-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-8" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-13" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="290" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9XqsKxiGDbkk7R-EG_W6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-15" target="9XqsKxiGDbkk7R-EG_W6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-15" value="Notification is sent to employee and a Trip is formed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XqsKxiGDbkk7R-EG_W6-1" target="bHKlRnCdBLCp6xTSOUjP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XqsKxiGDbkk7R-EG_W6-1" value="Trip is sent to Biz Travel/Admin&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-1" value="Go to Work on travel request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="920" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-3" target="bHKlRnCdBLCp6xTSOUjP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-3" value="Leader rejects the travel request." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-6" target="bHKlRnCdBLCp6xTSOUjP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHKlRnCdBLCp6xTSOUjP-9">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-6" target="bHKlRnCdBLCp6xTSOUjP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHKlRnCdBLCp6xTSOUjP-16">
+          <mxGeometry x="-0.2727" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-6" value="Leader wants to add extra comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="755" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-8" target="bHKlRnCdBLCp6xTSOUjP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-13" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHKlRnCdBLCp6xTSOUjP-12">
+          <mxGeometry x="0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-8" target="bHKlRnCdBLCp6xTSOUjP-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-8" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="800" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-11" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="795" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-15" target="bHKlRnCdBLCp6xTSOUjP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-15" value="Rejected travel request is sent back to employee" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-20" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1080" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
