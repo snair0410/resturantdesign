@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T00:26:48.567Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="MmO3-lUecn10iTf1lor_" version="21.3.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-30T00:35:49.073Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FJMgMhQrQLK1ab5ukeJb" version="21.3.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1602,6 +1602,90 @@
         <mxCell id="1" parent="0" />
         <mxCell id="m1FvmlX-L4ODrDaWw4q6-1" value="&lt;h1&gt;Modify Travel Request - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="730" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="HnRalAwRP6ik2nP7Zmo2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HnRalAwRP6ik2nP7Zmo2-3" target="HnRalAwRP6ik2nP7Zmo2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-3" value="Employee is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HnRalAwRP6ik2nP7Zmo2-5" target="HnRalAwRP6ik2nP7Zmo2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-5" value="Employee is prompted with a form to modify travel request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HnRalAwRP6ik2nP7Zmo2-6" target="S0LE4sWdnW0i_5qRpTqY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-6" value="Employee is shown with all active trips" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HnRalAwRP6ik2nP7Zmo2-8" target="HnRalAwRP6ik2nP7Zmo2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnRalAwRP6ik2nP7Zmo2-8" value="Employee clicks on Modify Travel Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-1" value="Any Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S0LE4sWdnW0i_5qRpTqY-2" target="S0LE4sWdnW0i_5qRpTqY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-2" value="Employee chooses Trip that they want to modify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S0LE4sWdnW0i_5qRpTqY-4" target="S0LE4sWdnW0i_5qRpTqY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-4" value="Form associated with Trip opens up." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S0LE4sWdnW0i_5qRpTqY-6" target="S0LE4sWdnW0i_5qRpTqY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-6" value="Employee changes what is required." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xam9Oq15LBsqk7tagRF3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S0LE4sWdnW0i_5qRpTqY-8" target="Xam9Oq15LBsqk7tagRF3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0LE4sWdnW0i_5qRpTqY-8" value="Employee saves Trip." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_hhgszO9ZqKta7MFfhe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xam9Oq15LBsqk7tagRF3-1" target="P_hhgszO9ZqKta7MFfhe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_hhgszO9ZqKta7MFfhe-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_hhgszO9ZqKta7MFfhe-2">
+          <mxGeometry x="-0.0118" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kPzZcDIfl9nZVKII-rmY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xam9Oq15LBsqk7tagRF3-1" target="kPzZcDIfl9nZVKII-rmY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kPzZcDIfl9nZVKII-rmY-3" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kPzZcDIfl9nZVKII-rmY-2">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xam9Oq15LBsqk7tagRF3-1" value="Does change involve change in itinerary?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kPzZcDIfl9nZVKII-rmY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P_hhgszO9ZqKta7MFfhe-1" target="kPzZcDIfl9nZVKII-rmY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_hhgszO9ZqKta7MFfhe-1" value="Go to Work on travel request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kPzZcDIfl9nZVKII-rmY-1" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="480" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
