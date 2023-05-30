@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T05:54:20.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RvZscGkXCofnjc_9ue0L" version="21.3.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-05-30T06:09:54.256Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xqWiUNAnyhy4xnpn2aTS" version="21.3.5" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1790,20 +1790,16 @@
         <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-13" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="1545" y="290" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9XqsKxiGDbkk7R-EG_W6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-15" target="9XqsKxiGDbkk7R-EG_W6-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9XqsKxiGDbkk7R-EG_W6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv3ZrWQ7MRbrTV-XYHmG-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="800" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Vv3ZrWQ7MRbrTV-XYHmG-15" value="Notification is sent to employee and a Trip is formed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bHKlRnCdBLCp6xTSOUjP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XqsKxiGDbkk7R-EG_W6-1" target="bHKlRnCdBLCp6xTSOUjP-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9XqsKxiGDbkk7R-EG_W6-1" value="Trip is sent to Biz Travel/Admin&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bHKlRnCdBLCp6xTSOUjP-1" value="Go to Work on travel request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="920" width="100" height="60" as="geometry" />
+        <mxCell id="bHKlRnCdBLCp6xTSOUjP-1" value="Go to&amp;nbsp;Settle impress Cash Advance web flow" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="845" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="bHKlRnCdBLCp6xTSOUjP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHKlRnCdBLCp6xTSOUjP-3" target="bHKlRnCdBLCp6xTSOUjP-6">
           <mxGeometry relative="1" as="geometry" />
@@ -1862,6 +1858,30 @@
         </mxCell>
         <mxCell id="bHKlRnCdBLCp6xTSOUjP-20" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="940" y="1080" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YDxz5FwiraLb8BL9SGox-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDxz5FwiraLb8BL9SGox-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDxz5FwiraLb8BL9SGox-4" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YDxz5FwiraLb8BL9SGox-3">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUMuPpNqrL7yMxsExDBK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDxz5FwiraLb8BL9SGox-2" target="zUMuPpNqrL7yMxsExDBK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUMuPpNqrL7yMxsExDBK-3" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zUMuPpNqrL7yMxsExDBK-2">
+          <mxGeometry x="-0.3556" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDxz5FwiraLb8BL9SGox-2" value="Does Travel request have cash advance?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="800" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zUMuPpNqrL7yMxsExDBK-1" value="Go to&amp;nbsp;Work On Travel Request - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1040" width="160" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2118,8 +2138,10 @@
         <mxCell id="ZrBhKH-zOIG0o-2T4TU4-3" value="Leader clicks Reject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1126" y="675" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-6" value="Go to Settle Impress Cash Advance both web only" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3320" y="490" width="120" height="70" as="geometry" />
+        <mxCell id="qqWetMCFykNxi5DQaxnV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qqWetMCFykNxi5DQaxnV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3380" y="490" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZrBhKH-zOIG0o-2T4TU4-7" value="Finance Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1760" y="470" width="30" height="60" as="geometry" />
@@ -2169,9 +2191,9 @@
         <mxCell id="ZrBhKH-zOIG0o-2T4TU4-22" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="3038" y="509" as="geometry" />
         </mxCell>
-        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-25" target="ZrBhKH-zOIG0o-2T4TU4-6">
+        <mxCell id="ZrBhKH-zOIG0o-2T4TU4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZrBhKH-zOIG0o-2T4TU4-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3324" y="560" as="targetPoint" />
+            <mxPoint x="3380" y="560" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2940" y="590" />
               <mxPoint x="3380" y="590" />
@@ -2333,6 +2355,9 @@
         </mxCell>
         <mxCell id="ZrBhKH-zOIG0o-2T4TU4-61" value="Cash Advance is sent back to the employee with rejected status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3076" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqWetMCFykNxi5DQaxnV-1" value="Go to&amp;nbsp;Approve Travel Request - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="490" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
