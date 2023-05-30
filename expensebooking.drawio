@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T09:23:56.857Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="EgtKAaJ5kYm7VzxnSnXH" version="21.3.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-05-30T09:24:34.399Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xNMBHmDW9voGET292u8S" version="21.3.5" type="github" pages="12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2900,9 +2900,6 @@
         </mxCell>
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-52" value="Does Expense report have cash settlement?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="650" width="140" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-53" value="Go to&amp;nbsp;Work On Travel Request - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1040" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-56" value="Record saved in the system for reporting." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="880" width="120" height="60" as="geometry" />
