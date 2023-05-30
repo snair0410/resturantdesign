@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T00:08:55.928Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-2uRKAYeOqM9pWOYcEOf" version="21.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-30T00:22:31.423Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NtQhipHF73D1dyAMlbg4" version="21.3.5" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1489,8 +1489,102 @@
         <mxCell id="X72vBkr2EOvMYB9GGa2V-1" value="Any Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="310" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Zw-dLHb-XdyJg93k9I_z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4CzPPkOAAIcqC2amNqDs-1" target="Zw-dLHb-XdyJg93k9I_z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4CzPPkOAAIcqC2amNqDs-1" value="Employee is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-dLHb-XdyJg93k9I_z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zw-dLHb-XdyJg93k9I_z-1" target="Zw-dLHb-XdyJg93k9I_z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw-dLHb-XdyJg93k9I_z-1" value="Employee is prompted with a form to raise travel request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqpXufe4eQR8AwtR1p5O-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zw-dLHb-XdyJg93k9I_z-3" target="EqpXufe4eQR8AwtR1p5O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqpXufe4eQR8AwtR1p5O-3" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EqpXufe4eQR8AwtR1p5O-2">
+          <mxGeometry x="-0.32" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7o8w8BXRSz8ZWW45b5V-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zw-dLHb-XdyJg93k9I_z-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw-dLHb-XdyJg93k9I_z-3" value="Employee fills the form" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VM3fXP1U2T9KkGMEhEyR-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4380" y="1390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqpXufe4eQR8AwtR1p5O-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B7o8w8BXRSz8ZWW45b5V-1" value="Undefined" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-5" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Do1agQaUxbv3D4JuNJtX-4">
+          <mxGeometry x="-0.2615" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-1" target="Do1agQaUxbv3D4JuNJtX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-9" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Do1agQaUxbv3D4JuNJtX-8">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-1" value="Does travel request&lt;br&gt;have cash advance?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="265" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-6" target="Do1agQaUxbv3D4JuNJtX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-6" value="Go to Advance Cash Request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-7" target="Do1agQaUxbv3D4JuNJtX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-7" value="Travel Request is sent for approval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-11" target="Do1agQaUxbv3D4JuNJtX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-11" value="Go to Approve Travel Request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-13" target="Do1agQaUxbv3D4JuNJtX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-13" value="All approvals in place." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-15" target="Do1agQaUxbv3D4JuNJtX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-15" value="A Trip is formed in the system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Do1agQaUxbv3D4JuNJtX-17" target="Do1agQaUxbv3D4JuNJtX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-17" value="Trip is sent to Biz Travel/Admin&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Do1agQaUxbv3D4JuNJtX-19" value="Go to Work on travel request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="310" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
