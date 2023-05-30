@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:17:47.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pHzJZxAIC2QXOv72qsbf" version="21.3.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-05-30T08:40:23.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hY1yKR7Yx1n9VHpLOHaM" version="21.3.5" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2783,8 +2783,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-21" target="On-Wv56i6WsG-IUtPJ7X-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-19">
           <mxGeometry x="-0.1733" relative="1" as="geometry">
@@ -2802,11 +2804,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-25" target="On-Wv56i6WsG-IUtPJ7X-29">
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-25" target="On-Wv56i6WsG-IUtPJ7X-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1620" y="690" />
+              <mxPoint x="1620" y="650" />
             </Array>
+            <mxPoint x="1490" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-25" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2818,25 +2821,8 @@
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-27" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="1545" y="290" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1430" y="800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-29" value="Notification is sent to employee and a Trip is formed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-31" target="On-Wv56i6WsG-IUtPJ7X-53">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1680" y="1000" />
-              <mxPoint x="1555" y="1000" />
-              <mxPoint x="1555" y="1073" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-31" value="Go to&amp;nbsp;Settle impress Cash Advance web flow" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="845" width="160" height="65" as="geometry" />
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-31" value="Go to&amp;nbsp;Settle Settle Employee Cash web flow" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="692.5" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-33" target="On-Wv56i6WsG-IUtPJ7X-38">
           <mxGeometry relative="1" as="geometry" />
@@ -2896,29 +2882,30 @@
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-47" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="940" y="1080" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-52">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1600" y="875" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-49" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-48">
-          <mxGeometry y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-52" target="On-Wv56i6WsG-IUtPJ7X-53">
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-52" target="On-Wv56i6WsG-IUtPJ7X-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-51" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-50">
-          <mxGeometry x="-0.3556" y="-2" relative="1" as="geometry">
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-55" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-54">
+          <mxGeometry x="0.0364" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="On-Wv56i6WsG-IUtPJ7X-52" value="Does Travel request have cash advance?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="800" width="140" height="150" as="geometry" />
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-52" target="On-Wv56i6WsG-IUtPJ7X-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-58" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-57">
+          <mxGeometry x="-0.35" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-52" value="Does Expense report have cash settlement?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="650" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="On-Wv56i6WsG-IUtPJ7X-53" value="Go to&amp;nbsp;Work On Travel Request - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1040" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-56" value="Record saved in the system for reporting." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
