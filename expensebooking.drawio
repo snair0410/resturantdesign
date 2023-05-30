@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T10:04:10.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1nonwIa3KkdO_47kaDDO" version="21.3.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-05-30T10:04:23.423Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="I0EJSa4bz7IP15gXmYMl" version="21.3.5" type="github" pages="12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2969,7 +2969,7 @@
         <mxCell id="1g1UqopU0-RrX_b8kaDM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1g1UqopU0-RrX_b8kaDM-3" target="1g1UqopU0-RrX_b8kaDM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1g1UqopU0-RrX_b8kaDM-3" value="FE downloads all cash advance requests as approved." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1g1UqopU0-RrX_b8kaDM-3" value="FE downloads all cash advance requests&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1g1UqopU0-RrX_b8kaDM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1g1UqopU0-RrX_b8kaDM-6" target="1g1UqopU0-RrX_b8kaDM-8">
