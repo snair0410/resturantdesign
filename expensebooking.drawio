@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T07:12:38.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IQKgDLEgBqUxwH8wftKF" version="21.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-30T07:26:40.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NW6BKDDVZqvbG2lDrE_j" version="21.3.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1904,7 +1904,12 @@
           <mxGeometry x="80" y="70" width="760" height="40" as="geometry" />
         </mxCell>
         <mxCell id="igM5MjjT3qn319vFlt-W-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="igM5MjjT3qn319vFlt-W-2" target="igM5MjjT3qn319vFlt-W-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="510" />
+              <mxPoint x="280" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="igM5MjjT3qn319vFlt-W-2" value="Any Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
@@ -2378,6 +2383,99 @@
         <mxCell id="1" parent="0" />
         <mxCell id="K6o7St_Z0dxS3fPgsENM-1" value="&lt;h1&gt;Book Expense&amp;nbsp; - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="70" width="850" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CJQ5G-Ach4wxSdd5hGtw-1" value="Any Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXm34kpqfrBFDrWWtEPh-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="GXm34kpqfrBFDrWWtEPh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="510" />
+              <mxPoint x="280" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXm34kpqfrBFDrWWtEPh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXm34kpqfrBFDrWWtEPh-3" target="GXm34kpqfrBFDrWWtEPh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXm34kpqfrBFDrWWtEPh-3" value="Employee is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXm34kpqfrBFDrWWtEPh-4" target="NLPU75bhg6aYNviDFPuY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXm34kpqfrBFDrWWtEPh-4" value="Employee wants to book expense" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-1" target="NLPU75bhg6aYNviDFPuY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-6" value="Travel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NLPU75bhg6aYNviDFPuY-5">
+          <mxGeometry x="-0.26" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-1" value="Travel or Non-Travel?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-4" target="NLPU75bhg6aYNviDFPuY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-4" value="Show full list of Trips for employee." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-7" target="NLPU75bhg6aYNviDFPuY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-7" value="Employee selects trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-9" target="NLPU75bhg6aYNviDFPuY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-9" value="Prompt employee to take one of 3 options 1) Manual entry with bill upload. 2) Upload image of bill and automatically generate entries. 3) Open camera and take pic of bill." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="445" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-11" target="NLPU75bhg6aYNviDFPuY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-11" value="Employee Selection?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-13" target="NLPU75bhg6aYNviDFPuY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-13" value="Bill Expense Form. Employee to enter details manually." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-15" target="NLPU75bhg6aYNviDFPuY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-15" value="Employee to upload bill copy as attachment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-17" target="NLPU75bhg6aYNviDFPuY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-17" value="Employee selects any other approvers than the line managers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A4ia2LhNvqqsR-YW6Phw-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-19" target="A4ia2LhNvqqsR-YW6Phw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4ia2LhNvqqsR-YW6Phw-3" value="Multicurrency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A4ia2LhNvqqsR-YW6Phw-2">
+          <mxGeometry x="0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLPU75bhg6aYNviDFPuY-19" value="Employee saves the entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A4ia2LhNvqqsR-YW6Phw-1" value="Go to&amp;nbsp;Multicurrency - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="150" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
