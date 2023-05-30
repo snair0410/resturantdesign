@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T07:26:40.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NW6BKDDVZqvbG2lDrE_j" version="21.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-30T07:52:28.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="zC-DpNOdKuhkcWPCm_1z" version="21.3.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2442,6 +2442,27 @@
         <mxCell id="NLPU75bhg6aYNviDFPuY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-11" target="NLPU75bhg6aYNviDFPuY-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-9" value="Manual Entry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NLPU75bhg6aYNviDFPuY-14">
+          <mxGeometry x="-0.1467" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-11" target="qqi6apqSy2VutPOX90oD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-12" value="Upload image of bill&lt;br&gt;and automatically generate&lt;br&gt;entries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qqi6apqSy2VutPOX90oD-11">
+          <mxGeometry x="-0.2235" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-11" target="qqi6apqSy2VutPOX90oD-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-40" value="Employee clicks take &lt;br&gt;picture option (Only Mobile)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qqi6apqSy2VutPOX90oD-39">
+          <mxGeometry x="-0.1636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NLPU75bhg6aYNviDFPuY-11" value="Employee Selection?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1680" y="435" width="140" height="150" as="geometry" />
         </mxCell>
@@ -2471,11 +2492,147 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TxSmTv0ZNhSKO0RCYByE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLPU75bhg6aYNviDFPuY-19" target="TxSmTv0ZNhSKO0RCYByE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NLPU75bhg6aYNviDFPuY-19" value="Employee saves the entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2280" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A4ia2LhNvqqsR-YW6Phw-1" value="Go to&amp;nbsp;Multicurrency - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2280" y="150" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TxSmTv0ZNhSKO0RCYByE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxSmTv0ZNhSKO0RCYByE-1" target="TxSmTv0ZNhSKO0RCYByE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxSmTv0ZNhSKO0RCYByE-1" value="Employee clears all red flags" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxSmTv0ZNhSKO0RCYByE-3" target="qqi6apqSy2VutPOX90oD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-4" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qqi6apqSy2VutPOX90oD-3">
+          <mxGeometry x="0.04" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxSmTv0ZNhSKO0RCYByE-3" target="qqi6apqSy2VutPOX90oD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxSmTv0ZNhSKO0RCYByE-3" value="Employee submits bill expense form for approval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="50" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-5" target="qqi6apqSy2VutPOX90oD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-5" value="Expense report is created with expense lines below trip. For non travel just an expense report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-7" value="Go to&amp;nbsp;Approve Expense - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="295" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-10" target="qqi6apqSy2VutPOX90oD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-10" value="Employee clicks on upload bill option." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-13" target="qqi6apqSy2VutPOX90oD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-13" value="Employee uploads bill copy to the system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-15" target="qqi6apqSy2VutPOX90oD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-15" value="System scans the bill and auto-populates the bill expense form" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-17" target="qqi6apqSy2VutPOX90oD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-17" value="System attaches scanned copy of the bill to the bill expense record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-19" target="qqi6apqSy2VutPOX90oD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-19" value="Employee selects any other approvers than the line managers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-21" target="qqi6apqSy2VutPOX90oD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-25" value="Multicurrency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qqi6apqSy2VutPOX90oD-24">
+          <mxGeometry x="0.1556" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-21" target="qqi6apqSy2VutPOX90oD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-21" value="Employee saves the entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-23" value="Go to&amp;nbsp;Multicurrency - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="375" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-26" target="qqi6apqSy2VutPOX90oD-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-26" value="Employee clears all red flags" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-28" target="qqi6apqSy2VutPOX90oD-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-28" value="Employee submits bill expense form for approval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3440" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qqi6apqSy2VutPOX90oD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3500" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-31" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qqi6apqSy2VutPOX90oD-30">
+          <mxGeometry x="0.04" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="230" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="370" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-34" value="Expense report is created with expense lines below trip. For non travel just an expense report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3640" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qqi6apqSy2VutPOX90oD-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3800" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-37" value="Go to&amp;nbsp;Approve Expense - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="470" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-38" target="qqi6apqSy2VutPOX90oD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-38" value="Employee clicks on upload bill option." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qqi6apqSy2VutPOX90oD-41" target="qqi6apqSy2VutPOX90oD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qqi6apqSy2VutPOX90oD-41" value="Employee clicks on upload bill option." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
