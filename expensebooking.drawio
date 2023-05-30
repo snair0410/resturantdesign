@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T10:07:00.210Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lVrkIGPjPYOp7cctktLc" version="21.3.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-05-30T10:10:02.189Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Te8d4McM2kV7MHR1TOe7" version="21.3.5" type="github" pages="13">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3104,6 +3104,54 @@
         </mxCell>
         <mxCell id="xave1Gbtg-EL1SLFrXQC-31" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1320" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wRq0zWul5sr9N2c6uV9Y" name="Download GL Report - Both - Web">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-1" value="&lt;h1&gt;Download GL Report&amp;nbsp; - 5 users and full paid - Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSJs0VDOm8qqcZ1kPUEW-3" target="wSJs0VDOm8qqcZ1kPUEW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-3" value="Finance Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSJs0VDOm8qqcZ1kPUEW-5" target="wSJs0VDOm8qqcZ1kPUEW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-5" value="FE is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSJs0VDOm8qqcZ1kPUEW-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-7" value="FE clicks download GL report button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSJs0VDOm8qqcZ1kPUEW-9" target="wSJs0VDOm8qqcZ1kPUEW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-9" value="FE provides date for download" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSJs0VDOm8qqcZ1kPUEW-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-11" value="FE sends the report to ledger accounting team" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSJs0VDOm8qqcZ1kPUEW-18" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="480" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
