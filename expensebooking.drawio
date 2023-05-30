@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T23:54:21.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="r8rpyIZzj6tEGi-bS4MV" version="21.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-30T00:08:55.928Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-2uRKAYeOqM9pWOYcEOf" version="21.3.5" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -476,7 +476,7 @@
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-144" value="User can skip or make entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4250" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yT2jcX1gNWG2OGTkNdqD-146" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-146" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4380" y="1130" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="yT2jcX1gNWG2OGTkNdqD-149">
@@ -498,7 +498,7 @@
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-150" value="System shows tax calculation table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4250" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yT2jcX1gNWG2OGTkNdqD-152" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yT2jcX1gNWG2OGTkNdqD-152" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4390" y="1360" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yT2jcX1gNWG2OGTkNdqD-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="yT2jcX1gNWG2OGTkNdqD-155">
@@ -1021,7 +1021,7 @@
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-138" value="User can skip or make entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4530" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-139" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-139" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="4660" y="1130" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7ylIP6Tap9EPNx5bp8vQ-142">
@@ -1043,7 +1043,7 @@
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-144" value="System shows tax calculation table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="4530" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-145" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="7ylIP6Tap9EPNx5bp8vQ-145" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="4670" y="1360" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7ylIP6Tap9EPNx5bp8vQ-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7ylIP6Tap9EPNx5bp8vQ-148">
@@ -1210,7 +1210,7 @@
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-36" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="3870" y="1400" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="3825" y="1170" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZoU8wx0lo-7dZvrNCsIF-39" target="ZoU8wx0lo-7dZvrNCsIF-41">
@@ -1430,7 +1430,7 @@
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-103" value="User can skip or make entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2770" y="2310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-104" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-104" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="2900" y="2170" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-105" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -1445,7 +1445,7 @@
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-106" value="System shows tax calculation table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="2770" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-107" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ZoU8wx0lo-7dZvrNCsIF-107" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;Undefined List&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="2910" y="2400" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZoU8wx0lo-7dZvrNCsIF-108" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -1482,6 +1482,15 @@
         <mxCell id="1" parent="0" />
         <mxCell id="Fn4v3Fm-qQ4SELFq_ejh-1" value="&lt;h1&gt;Create Travel Request - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="730" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4CzPPkOAAIcqC2amNqDs-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X72vBkr2EOvMYB9GGa2V-1" target="4CzPPkOAAIcqC2amNqDs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X72vBkr2EOvMYB9GGa2V-1" value="Any Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CzPPkOAAIcqC2amNqDs-1" value="Employee is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
