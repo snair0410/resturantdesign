@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:06:25.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="APxXlsEnNMpjdI-VH94e" version="21.3.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-05-30T08:17:47.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pHzJZxAIC2QXOv72qsbf" version="21.3.5" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2714,6 +2714,211 @@
         </mxCell>
         <mxCell id="8SRXLnXTxTFMRT-ay5wF-26" value="Go to Approve Expense - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1840" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_3skiEqx21zEIQ6nyP57" name="Approve Expense - Both - Both">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-1" value="&lt;h1&gt;Approve Expense Report - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-3" target="On-Wv56i6WsG-IUtPJ7X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-3" value="Leader" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-5" target="On-Wv56i6WsG-IUtPJ7X-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-5" value="Leader is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-7" target="On-Wv56i6WsG-IUtPJ7X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-7" value="Leader sees a list of expense reports for approval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-9" target="On-Wv56i6WsG-IUtPJ7X-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-9" value="Leader can Approve or Reject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-14" target="On-Wv56i6WsG-IUtPJ7X-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-11" value="Approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-10">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-14" target="On-Wv56i6WsG-IUtPJ7X-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-13" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-12">
+          <mxGeometry x="-0.3091" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-14" value="Decision by Leader?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-16" target="On-Wv56i6WsG-IUtPJ7X-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-16" value="Leader approves the expense report." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-21" target="On-Wv56i6WsG-IUtPJ7X-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-18" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-17">
+          <mxGeometry x="-0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-21" target="On-Wv56i6WsG-IUtPJ7X-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-19">
+          <mxGeometry x="-0.1733" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-21" value="Leader wants to add extra comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="435" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-25" target="On-Wv56i6WsG-IUtPJ7X-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-23" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-25" target="On-Wv56i6WsG-IUtPJ7X-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-25" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-27" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="290" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-29" value="Notification is sent to employee and a Trip is formed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-31" target="On-Wv56i6WsG-IUtPJ7X-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="1000" />
+              <mxPoint x="1555" y="1000" />
+              <mxPoint x="1555" y="1073" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-31" value="Go to&amp;nbsp;Settle impress Cash Advance web flow" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="845" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-33" target="On-Wv56i6WsG-IUtPJ7X-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-33" value="Leader rejects the expense report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-38" target="On-Wv56i6WsG-IUtPJ7X-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-35" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-34">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-38" target="On-Wv56i6WsG-IUtPJ7X-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-37" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-36">
+          <mxGeometry x="-0.2727" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-38" value="Leader wants to add extra comments?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="755" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-42" target="On-Wv56i6WsG-IUtPJ7X-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-40" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-39">
+          <mxGeometry x="0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-42" target="On-Wv56i6WsG-IUtPJ7X-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-42" value="Leader is given text box to make comments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="800" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-44" value="Change in status&lt;br&gt;with comments." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="795" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-46" target="On-Wv56i6WsG-IUtPJ7X-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-46" value="Rejected travel request is sent back to employee" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-47" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1080" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-49" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-48">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="On-Wv56i6WsG-IUtPJ7X-52" target="On-Wv56i6WsG-IUtPJ7X-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-51" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="On-Wv56i6WsG-IUtPJ7X-50">
+          <mxGeometry x="-0.3556" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-52" value="Does Travel request have cash advance?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="800" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="On-Wv56i6WsG-IUtPJ7X-53" value="Go to&amp;nbsp;Work On Travel Request - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1040" width="160" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
