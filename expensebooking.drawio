@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T06:10:47.703Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1qabn6zZM5Wq8mQhdJqd" version="21.3.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-05-30T07:12:38.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IQKgDLEgBqUxwH8wftKF" version="21.3.5" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2039,7 +2039,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="34WZ7Xo6Dy6WcV-78aAt-1" value="&lt;h1&gt;Approve Advance Cash Request&amp;nbsp; - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="760" height="40" as="geometry" />
+          <mxGeometry x="120" y="70" width="860" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XiJFX75LgKfpXF4mSbBG-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiJFX75LgKfpXF4mSbBG-2" target="XiJFX75LgKfpXF4mSbBG-4">
           <mxGeometry relative="1" as="geometry" />
@@ -2367,6 +2367,17 @@
         </mxCell>
         <mxCell id="qqWetMCFykNxi5DQaxnV-1" value="Go to&amp;nbsp;Approve Travel Request - Both - Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3320" y="490" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="llLPbK6OYYqPv2-OuLLR" name="Book Expense - Both -Both">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K6o7St_Z0dxS3fPgsENM-1" value="&lt;h1&gt;Book Expense&amp;nbsp; - 5 users and full paid - Mobile and Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="850" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
