@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T09:59:25.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NZeQt0BrYFOmzLlZZcSl" version="21.3.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-05-30T10:04:10.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1nonwIa3KkdO_47kaDDO" version="21.3.5" type="github" pages="12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3047,8 +3047,83 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4AsyRB1nOEJOpXtvublz-1" value="&lt;h1&gt;Settle Employee Cash - 5 users and full paid - Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-1" value="&lt;h1&gt;Settle Employee Cash&amp;nbsp; - 5 users and full paid - Web&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-3" target="xave1Gbtg-EL1SLFrXQC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-3" value="Finance Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-5" target="xave1Gbtg-EL1SLFrXQC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-5" value="FE is on dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-7" value="FE sees a list of approved expense reports with cash settlements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-18" target="xave1Gbtg-EL1SLFrXQC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-18" value="FE downloads all cash settlement requests&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-20" target="xave1Gbtg-EL1SLFrXQC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-20" value="FE processes payments outside the system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-24" target="xave1Gbtg-EL1SLFrXQC-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-22" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xave1Gbtg-EL1SLFrXQC-21">
+          <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-24" target="xave1Gbtg-EL1SLFrXQC-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-24" value="FE marks cash advance request as Completed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-25" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-26" value="Change in&lt;br&gt;&amp;nbsp;status only" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-30" target="xave1Gbtg-EL1SLFrXQC-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xave1Gbtg-EL1SLFrXQC-30" target="xave1Gbtg-EL1SLFrXQC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-29" value="Save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xave1Gbtg-EL1SLFrXQC-28">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-30" value="System adds notional money to the trip icon in the dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-31" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-32" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xave1Gbtg-EL1SLFrXQC-33" value="Dummy notional &lt;br&gt;money added to trip." style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="100" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
