@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:04:09.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XJRj7d_mq3_ZXikbecsC" version="21.3.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-05-30T08:06:25.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="APxXlsEnNMpjdI-VH94e" version="21.3.5" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2704,39 +2704,16 @@
         <mxCell id="8SRXLnXTxTFMRT-ay5wF-17" value="Employee changes what is required." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1440" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SRXLnXTxTFMRT-ay5wF-19" target="8SRXLnXTxTFMRT-ay5wF-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8SRXLnXTxTFMRT-ay5wF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SRXLnXTxTFMRT-ay5wF-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-19" value="Employee saves Trip." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8SRXLnXTxTFMRT-ay5wF-19" value="Employee saves Expense Report." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1640" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SRXLnXTxTFMRT-ay5wF-24" target="8SRXLnXTxTFMRT-ay5wF-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-21" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SRXLnXTxTFMRT-ay5wF-20">
-          <mxGeometry x="-0.0118" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8SRXLnXTxTFMRT-ay5wF-24" target="8SRXLnXTxTFMRT-ay5wF-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-23" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SRXLnXTxTFMRT-ay5wF-22">
-          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-24" value="Does change involve change in itinerary?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="435" width="140" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8SRXLnXTxTFMRT-ay5wF-26" target="8SRXLnXTxTFMRT-ay5wF-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-26" value="Go to Work on travel request - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="290" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8SRXLnXTxTFMRT-ay5wF-27" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="480" width="100" height="60" as="geometry" />
+        <mxCell id="8SRXLnXTxTFMRT-ay5wF-26" value="Go to Approve Expense - Both-Both" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="480" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
