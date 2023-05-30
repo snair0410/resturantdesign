@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:51:46.494Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f7RUR02mf3pf__WwiNbb" version="21.3.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-05-30T08:53:41.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="3SaYal7neYxXGxc0IlBJ" version="21.3.5" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -547,7 +547,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="c6Xw6UOpzUwpYjwMI5ov" name="Configuration Flow for full system on Web">
+  <diagram id="c6Xw6UOpzUwpYjwMI5ov" name="Configuration Flow for full system -Both - Web Only">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -2910,7 +2910,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="36-iQMeaYN7B5fHV_EnB" name="Page-11">
+  <diagram id="36-iQMeaYN7B5fHV_EnB" name="Settle Impress Cash Advance - Both - Web only">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
