@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T11:27:14.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FIYTr6siSfR5Ffo0PF6i" version="21.3.5" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-05-30T11:29:15.922Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="VHB3d3j1vuuodrw2EyYk" version="21.3.5" type="github" pages="18">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Configuration Flow for 5 users on Web">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3397,8 +3397,14 @@
         <mxCell id="A40u35MmEFQdW31M4aJm-11" value="Other Leaders Approval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3040" y="480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A40u35MmEFQdW31M4aJm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A40u35MmEFQdW31M4aJm-13" target="A40u35MmEFQdW31M4aJm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A40u35MmEFQdW31M4aJm-13" value="Status is Approved - Automatic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3280" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A40u35MmEFQdW31M4aJm-16" value="Is there cash &lt;br&gt;settlement?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3520" y="435" width="140" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
